@@ -6,11 +6,17 @@
 ###### _Critique deadline: Friday, Feb. 19 at 11:59pm_
 
 In this assignment, we'll get a head start on our projects. You'll describe four
-potential project ideas and evaluate their suitability as a project. You'll
-also provide feedback on someone else's project idea.
+potential project ideas and evaluate the suitability of each as a project.
+You'll also provide feedback on someone else's project idea.
 
 The goals are this project are to (a) start getting a sense of what makes for a
 good project and (b) start generating ideas for your project. 
+
+There are many different kinds of successful projects. To get a sense of what
+counts as a good project--and for some ideas on generating projects of your
+own--read this article on [how to generate project ideas][ProjectGen].
+
+## Teamwork and collaboration
 
 Do this assignment individually: you must come up with and describe your ideas 
 on your own. You may talk with other people, though, as you're generating ideas
@@ -30,12 +36,9 @@ contribute your unadulterated thoughts.)
    you really like and that makes for a good project). You have until Spring
    Break to settle on an idea for a project, so take your time.
 
-   + If you have some ideas right now, jot them down. Then, read the rest of the
-   assignment. Then, set things aside for a day or two and let it sit in
-   your brain. Then, come back and describe your ideas.
-
-   + If you'd like some additional help coming up with ideas, [here's lots of
-   advice and suggestions][ProjectGen].
+   + Read over the [project generation][ProjectGen] page right away. If you
+   have some ideas, jot them down. Then let things percolate in your head for a
+   couple of days before writing them up.
 
    + Focus most of your attention for now on problems, rather than solutions. In
    particular--in most cases--it's premature to talk about an internal _vs_
@@ -112,7 +115,7 @@ Here are some suggestions for critiques:
    + Answer the questions about suitability, scope, etc. of the project.
 
 ## Tasks
-- [ ] Read the assignment, possibly including the advice for 
+- [ ] Read the assignment, including the advice for 
 [generating ideas][ProjectGen].
 - [ ] Think / come up with ideas.
 - [ ] Write responses in each of the four files.
