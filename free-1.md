@@ -42,6 +42,7 @@ potential use of it.
 
 ### Domain
 _Describe the project's domain in five words._
+Choreography creation and record keeping.
 
 
 ### Interface (syntax)
@@ -77,13 +78,23 @@ spent directly engaging in the **language** aspects of this project (e.g.,
 making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
-
+I think the hardest part of this project is the language aspects, by far. There
+is a lot of work to be done in deciding how to represent different movements, 
+which movements to allow, which movements to not allow, etc. Because movement is
+not finite, the language should be as open ended as possible. However, this will
+require a lot of organization.
 
 ### Scope
 _How big an idea is this? How ambitious is this project?_
-
+Pretty ambitious. There's a lot of range in dance and movement, which is part of
+the difficulty. To be succesful in creating this, there would need to be a way 
+to break down and work on just a smaller aspect of the domain (such as a 
+specific style of dance or a certain type of movement). 
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
+This could be a good project because it ties my two majors together, which is 
+pretty exciting. However, it could be very broad and open, and might be hard to 
+pull all the pieces together. The scope has to be narrowed.
 
