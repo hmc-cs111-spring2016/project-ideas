@@ -1,5 +1,7 @@
 # Free project 1
 
+DOTA 2 Balance checker/designer
+
 ## The user and a language
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
