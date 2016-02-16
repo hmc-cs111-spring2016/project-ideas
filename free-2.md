@@ -4,13 +4,13 @@
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
-This project would serve brewers (amateur and professional alike) who do not know what outcome a specific type of recipe would yield. Brewing is an uncertain process and depends on a wide range of variables. Changing one small step in the brewing process could impact the entire result. A simulation language might be a good way for users to get a rough idea of their end product before starting the brewing process.
-
 
 ### What's the need?
 _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help 
 them?_
+
+This project would serve brewers (amateur and professional alike) who do not know what outcome a specific type of recipe would yield. Brewing is an uncertain process and depends on a wide range of variables. Changing one small step in the brewing process could impact the entire result. A simulation language might be a good way for users to get a rough idea of their end product before starting the brewing process.
 
 I am helping anyone who wants to try their hand at brewing. Maybe a first-time brewer would use this simulation to start their very first recipe. Maybe an experienced brewer would try to create a completely different end product and would want to test their ideas before starting. This idea is a response to the uncertainty in brewing and aims to increase the experience of the user so that they gain a greater awareness of how each unique variable in the brewing process impacts the final brew.
 

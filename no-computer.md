@@ -1,14 +1,16 @@
 # No computer project - Recipe Book
 
 ## The user and a language
-
-My "no computer" language in this scenario is a recipe book. The user of this language is a person who wants to make food for themselves or others. It would teach a person to make a dish, which is particularly helpful if the person in question does not know how to make the dish that they want. If they are unsure of what they want to cook, the recipe book can give suggestions for dishes and then provide instructions once the user has selected their desired dish.
+This section describes who the project would serve and why a language might be a
+good way to meet their needs.
 
 
 ### What's the need?
 _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help 
 them?_
+
+My "no computer" language in this scenario is a recipe book. The user of this language is a person who wants to make food for themselves or others. It would teach a person to make a dish, which is particularly helpful if the person in question does not know how to make the dish that they want. If they are unsure of what they want to cook, the recipe book can give suggestions for dishes and then provide instructions once the user has selected their desired dish.
 
 The idea meets the need of people who don't know how to make recipes they want to cook. The language would serve everyone from first-time cooks to experienced chefs who do not have the recipes memorized. Each recipe they would make from the book would help to increase their experience. If they were to make all recipes from the book multiple times, presumably their cooking skills would improve and they would use their new experience to perfect the dishes.
 
