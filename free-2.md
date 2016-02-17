@@ -48,6 +48,7 @@ facing cis-women.
 
 ### Domain
 _Describe the project's domain in five words._
+
 Tracking menstrual cycles and symptoms.
 
 
@@ -117,5 +118,12 @@ for this to grow.
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
+
+This could be a really cool project because it addresses a very relevant need and has
+lots of room for language development. Because of longstanding societal stigmas, periods
+aren't regularly talked about. As such, the idea of developing a language to specifically
+talk about them sounds like a cool way to push back against the typical silence and help 
+out people with periods. However, this might not be a good project because it would 
+require a lot more scientific knowledge than perhaps is within the scope of this class.
 
 
