@@ -48,7 +48,7 @@ _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
-It creates a model of a logic puzzle and checks properties of that model, and makes suggestions about how that puzzle could be altered based on the model. I can't imagine many other errors apart from syntactic errors. 
+It creates a model of a logic puzzle and checks properties of that model, and makes suggestions about how that puzzle could be altered based on the model. I can't imagine many other errors apart from syntactic errors. It would be a very back-and-forth process, with the user making modifications, the program giving them feedback on what changed, and so on.
 
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
