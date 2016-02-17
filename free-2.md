@@ -41,11 +41,15 @@ _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
+When source code is run, the program picks a random seed and generates a number of frames, which it then renders into a short animation. The user could hopefully specify how many frames to render. It might also just show the frames as they render. Errors would be mostly syntactic or from bad recursive definitions if they're allowed.
+
+Additionally I could actually imagine implementing this as a layer on top of ContextFree (essentially making ContextFree into an internal DSL to what I'd be making) that just renders the frames directly within ContextFree. So this process could also involve that step.
 
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
 
+It should be easy to make these kinds of abstract animations described above. It should also be easy to make non-animated simple abstract art by simply not using the animation feature. It should be more difficult to make other kinds of art - for instance, if you wanted to render a scene of a person taking a walk, that would probably be possible but extremely difficult (in other words this should not be used for that). It would be impossible to do anything else, like add sound or mess with aspects of the image that there is no interface for.
 
 ### Related work
 _Are there any other DSLs in this domain? If not, describe how you know there
@@ -53,6 +57,7 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
+Obviously ContextFree is in a similar domain and I think it's a fantastic language, particularly the recursive ideas. The one aspect of it that I'd be trying to improve on is that it generates still frames and would be inconvenient for making animations as you'd have to generate them one frame at a time (although this could be done). I've seen or used some tools for abstract animation before (specifically in a class I took called Harmony of Sound and Light that was mostly about abstract animation). Some people in the class used Blender (<https://www.blender.org/>) but it's more general than what I want. I and many others used POV-Ray (<http://www.povray.org/>) but it uses ray tracing so it's more suited to 3-dimensional modeling. In fact my final project was 2-dimensional and it was very notably annoying to get the program to work nicely with a 2-dimensional scene. It's not what the program was designed for but it is what the DSL I have in mind would be for.
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
@@ -75,4 +80,6 @@ Like my first idea I think this is pretty extensible. It might be a tad ambitiou
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
+
+One benefit is that it does excite me a fair amount - I think it would be a really cool thing to make and play around with. I also think it would be nice to look at ContextFree and think more about the decisions that its designers made and see if I would want to follow or diverge from them. As a drawback I would need to learn how to implement rendering in whatever language I use which could potentially run into some big difficulties.
 

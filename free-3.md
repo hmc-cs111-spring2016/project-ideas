@@ -48,11 +48,13 @@ _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
+It creates a model of a logic puzzle and checks properties of that model, and makes suggestions about how that puzzle could be altered based on the model. I can't imagine many other errors apart from syntactic errors. 
 
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
 
+It should be easy to make logic puzzles and change them. It should be hard to make other kinds of puzzles (you might be able to work some way out to do them if you're creative, i'd imagine, but everything would be running on the model of a CSP.) It should be impossible to do anything other than specifying aspects of a puzzle, so there is a certain limit to how creative the user can be.
 
 ### Related work
 _Are there any other DSLs in this domain? If not, describe how you know there
@@ -60,6 +62,7 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
+There are tools like <http://www.mensus.net/brain/logic.shtml>. The way that that tool specifies kinds of clues is very similar to what I'd be looking for but I would want the user to have a higher degree of interactivity with the program, so that they could add and remove rules and look at what happens to the puzzle in "real time." The only feature that tool has is generating puzzles with certain types of rules. The workflow I have in mind would be more back-and-forth between the user and the language, and I don't know if any tool like that exists. There are tons of other tools to generate puzzles for solving that don't give the user even that much freedom.
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
@@ -72,12 +75,15 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+This might be a problem with this idea - the systems might be very difficult to get right here. The language design would also be a difficult aspect of it, however.
 
 ### Scope
 _How big an idea is this? How ambitious is this project?_
 
+It's more risky than ambitious, I think - risky in the sense that I'm not sure if the idea for the underlying model is sound, and it's very important. It would proably simply either work or not work in the end.
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
+It's a bad idea for the couple of reasons listed above. It's a good idea because it's very naturally a problem for which I think a DSL is really the right way to solve it. It seems very natural that people desigining these puzzles would want a DSL-like interface for their design, and I think a DSL could offer a lot in a lot of different ways. 
