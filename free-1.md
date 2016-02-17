@@ -4,17 +4,20 @@
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
-It seems as though there are many people struggling with the same problem: how do we place things into groups based on an assortment of criteria. Much of this sort of problem solving is done by hand, but as the domain becomes larger, it becomes nearly impossible to do by hand. I would like to create a language to help these people, perhaps specifically focusing on creating a language which clinic organizers can use to place students on clinic teams based on what position they like, what projects they are interested in, who they want to work with or do not want to work with, and perhaps even who thy can easily meet with on a weekly basis. This is a small domain in which a general purpose programming language could be unweilding and over complicating but still large enough that a full language would make planning significantly easier so I think DSL could easily fill that niche.
 
 ### What's the need?
 _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help 
 them?_
 
+There are many people struggling with the same problem: how do we place things into groups based on an assortment of criteria. Much of this sort of problem solving is done by hand, but as the domain becomes larger, this becomes nearly impossible. I would like to create a language to help these people. Since this is an extremely broad scope, I would specifically focusing on creating a language which clinic organizers can use to place students on clinic teams based on what position they like, what projects they are interested in, who they want to work with or do not want to work with, and perhaps even who thy can easily meet with on a weekly basis. However, this should be extensible to more general group organisation for other activities as well. 
+
 We need better ways to describe a set of constraints and relationships to organize teams for things like clinic. Many students become very frusterated with clinic because they don't work well with the students on their team or don't like their project. If we could create a language that would make optimizing the team divisions easier, everyone might have a more positive clinic experience. 
 
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
+
+This is a small domain in which a general purpose programming language could be unweilding and over complicating but still large enough that a full language would make planning significantly easier so I think DSL could easily fill that niche.
 
 A DSL would allow the users to easily learn how to use my language and then use it to input all the data on which clinic team assignments are decided and then just trust the computer outputted optimized team divisions. This removes much of the human bias from the selection process and greatly simplifies the process for the faculty in charge of the team divisions. It optimizes to meet as many of the weighted hopes of the students to grant them better clinic experiences and it is easily scalable for organizing teams even if the number of students doing clinic doubles or triples.
 
@@ -27,6 +30,7 @@ I came up with this because I was interested in creating a Prolog like language 
 
 ### Domain
 _Describe the project's domain in five words._
+
 Optimizing clinic team formation choices.
 
 
