@@ -10,23 +10,38 @@ _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help 
 them?_
 
+There are many people who have an interest in making logic puzzles. There are plenty of magazines that feature them regularly, other games that feature them as more baked-in features (like a game with an expansive world with a puzzle element to it), and the people who casually enjoy those publications and may have an interest in making their own in a more casual way. These puzzles may be hard to generate: you have to come up with all of the variables involved and all of the rules you impose and meticulously check that their solution works and is unique.
+
+I'd hope to be able to automate those processes. It would make constructing puzzles, testing them for having unique solutions, modifying them, and so on simpler. You'd be able to tinker with one rule that you imposed on a puzzle at a time until you get something that you think is interesting. 
 
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
+Doing this programmatically is very natural, as many of these problems can be formulated as constraint satisfaction problems and CSPs have been well studied algorithmically. A general purpose PL is way too broad of a thing to learn for someone who has a casual interest in this domain and just wants to play around with things to get something interesting.
 
 ### Why you?
 _What excites you about this idea? How did you come up with it?_
 
+I sat down in my suite to write this up and saw my friends playing a video game called Doors. It's a really simple logic puzzle game where there are doors that say different statements about which ones are telling the truth or lying, and you have to figure out which one you're supposed to go through. It seemed like automatic puzzle generation like that would be nice (and looking around a bit online I think puzzles for this game were actually crowdsourced, so it could be very different). 
+
+I think a lot of similar tools exist, but focusing on the fact that they can be formulated as CSPs would give a unique angle that would allow different kinds of puzzle generation - you could generate Doors puzzles, or you could generate classic fill-in-the-grid puzzles (if you're unfamiliar with them you can see examples on <http://www.logic-puzzles.org/>). Or you could make up your own kind of puzzle and make a bunch of them.
 
 ### Domain
 _Describe the project's domain in five words._
 
+Creating CSP-based logic puzzles.
+
+(or if "CSP" is cheating, "different kinds of logic puzzles.")
 
 ### Interface (syntax)
 _How might the user interact with the language? What does programming look 
 like? Why is this the right way to interact with the problem domain?_ 
 
+In a CSP, there are variables which can take on possible values and constraints that specify what combinations of variables are possible. There would be two basic commands for specifying a logic puzzle: specify a variable, or specify a constraint. You'd be modifying a file that contains information about all of the variables and constraints that your puzzle has.
+
+An alternative way of using the language would consist of specifying formulas that could generate rules. For instance, you might say "if x is p then y is q" is a valid rule (given variables x and y, and values p and q that they could take on). The program would use these as molds to generate specific rules, generating and removing rules until it finds a valid puzzle and then showing that puzzle to the user. The user could specify these rules both in natural language and in formal language - for instance "if x is p then y is q" might have a few different ways to phrase in English, and the user might want the program to spit out rules that say "in the case that x happens to be p, then y would have to be q." The user could specify any syntax for these rules that they want.
+
+The program would also be able to display information about the puzzle - i.e., "37 solutions currently possible" or "problem is overconstrained" if none are possible. It could show which variables are particularly underspecified so that the user would know which variables to write more constraints on. It could potentially even suggest rules to add that would constrain the problem more, but not overconstrain it.
 
 ### Operation (semantics)
 _What might happen when a program runs? How does a program interact with the
