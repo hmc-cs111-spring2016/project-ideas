@@ -14,7 +14,7 @@ them?_
 
 The basis for this language is West Coast Swing (ex: https://youtu.be/QiB-xYd9PSo?t=30), 
 a type of social dancing with specific rules and technique. This can be explained as a 
-DSL by translatingthose rules into a specific wording that results in particular steps 
+DSL by translating those rules into a specific wording that results in particular steps 
 done in a certain way. This helps anyone who wants to dance West Coast Swing to break down 
 the movements. This is more aimed at beginner level dancers than advanced
 dancers who have master most of the movement. By having this broken down as a
