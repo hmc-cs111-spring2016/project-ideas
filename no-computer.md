@@ -22,7 +22,7 @@ My DSL, pingminton, combines both sports to create a truly electrifying experien
 ### Why a language?
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
-A DSL is appropriate because it allows users 
+A DSL is appropriate because it allows users to exert dominance over their peers in an enjoyable manner.  It isn't a necessary DSL, as there are many other sports that have the same function, but it's always nice to have more options when it comes to killing time with friends.
 
 ### Why you?
 _What excites you about this idea? How did you come up with it?_
