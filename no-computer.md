@@ -92,4 +92,4 @@ Every last feature I can think to include would make this a very ambitious proje
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
 
-The main drawback I see is that it has sort of been done before. 
+The main drawback I see is that it has sort of been done before. It's also possible that other guitarists would not find a DSL to be the best solution like I think they might. I'd certainly need to ask some people before I could commit to this project. Aside from that, I think this is a good project idea.
