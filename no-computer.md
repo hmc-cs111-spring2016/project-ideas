@@ -110,9 +110,18 @@ the work lies in actually executing a program.
 ### Scope
 _How big an idea is this? How ambitious is this project?_
 
-
+This project is only as ambitious as the number of moves included. The basic
+steps and the few normal variations would not be complicated to write and to 
+determine which can follow which. However, once more complex variations and 
+movements are introduce, the rules of the language become more complicated.
 
 ### Benefits and drawbacks
 _Why might this be a good idea for a project? Why might this not be a good idea 
 project?_
+
+West Coast Swing has lots of room for rules and precision which makes it suitable
+as a DSL. It also has a basic rythym that is necessary for the dance to be considered
+WCS, which translates to the idea of a basic grammar. However, there's not a lot of 
+room to be creative and create new ideas in this language, which makes it more
+limited as a project.
 
