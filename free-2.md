@@ -56,16 +56,34 @@ Tracking menstrual cycles and symptoms.
 _How might the user interact with the language? What does programming look 
 like? Why is this the right way to interact with the problem domain?_ 
 
+The user could interact with the language in ways like tracking data in 
+an excel sheet or writing out simple commands. Programming looks like
+entering current menstrual state, date, time, and other relevant data about
+mood and health. I don't know if this is the right way to interact with 
+the problem domain to be honest. If I were to choose this project, I would
+start by interviewing people and seeing how they would prefer to interact
+with the language.
 
 ### Operation (semantics)
 _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
+When a program runs, the user should gain some sort of insight about their 
+personal health, either in the form of stats or predictions. The program interacts
+with the user by maybe taking in additional input once it is set up, or 
+by displaying information. Errors could occur if non-comprehensible
+data is added to the program. Some sort of message stating the type of issue
+with the data would be helpful.
+
 
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
+
+Tracking basic statistics regarding one's period should be easy to set up
+and configure. More detailed record keeping might be difficult. Tracking
+completely unrelated health issues should not be a concern of this language.
 
 
 ### Related work
