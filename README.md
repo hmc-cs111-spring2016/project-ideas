@@ -57,7 +57,7 @@ of the ideas are free-form, one is subject to constraints:
    Describe this idea in `free-2.md`.
 
    1. **Free-range idea #3:** No constraints on this idea--it's all you! 
-   Describe this idea in `free-2.md`.
+   Describe this idea in `free-3.md`.
 
    1. **No-computer idea:** In
    class, I claimed that chess is a DSL, then tried to make a case for it. Pick
