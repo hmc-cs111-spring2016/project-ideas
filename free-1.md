@@ -32,9 +32,9 @@ _How might the user interact with the language? What does programming look
 like? Why is this the right way to interact with the problem domain?_ 
 
 A user might be able to define a fill in the following ways:
-1. By creating an ASCII representation of musical notes. 
-2. By creating fills programatically from their constituent parts.  A Fill might be made up of Measures (by defining measures separately, each could have a different meter.  This is important for complex fill patterns), which might be made up of Beats.  Notes could be defined on top of whatever rhythmic structure was created with the previous 3 elements.  Notes are played by Instruments (each piece of the drum kit is a different instrument), which are each assigned their own audio file (or MIDI instrument?  Not sure about this).
-3. By calling some command that creates a random fill based off some specified parameters, such as min/max note value, number of measures, etc.
+- By creating an ASCII representation of musical notes. 
+- By creating fills programatically from their constituent parts.  A Fill might be made up of Measures (by defining measures separately, each could have a different meter.  This is important for complex fill patterns), which might be made up of Beats.  Notes could be defined on top of whatever rhythmic structure was created with the previous 3 elements.  Notes are played by Instruments (each piece of the drum kit is a different instrument), which are each assigned their own audio file (or MIDI instrument?  Not sure about this).
+- By calling some command that creates a random fill based off some specified parameters, such as min/max note value, number of measures, etc.
 
 Once a fill is made, a user should be able to modify it with various commands, such as "randomizeRhythm(Instrument kitPiece, Measure measure, Int maxNoteValue, Int minNoteValue)".  This type of interaction is helpful because it allows users a large degree of control over the types of modifications they could make to their fills.
 
