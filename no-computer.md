@@ -57,7 +57,7 @@ _Are there any other DSLs in this domain? If not, describe how you know there
 aren't and conjecture why not. If so, describe them and provide links. How well 
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
-There is (baseball-sim)[https://www.sabersim.com/mlb], which is very similar to what I described! (I didn't know about it before I started writing). While the writer does pretty much everything I described above, he still feels the simulator is not very useful -- he writes about his thoughts (here.)[http://www.hardballtimes.com/10-lessons-i-learned-from-creating-a-baseball-simulator/]
+There is [baseball-sim](https://www.sabersim.com/mlb), which is very similar to what I described! (I didn't know about it before I started writing). While the writer does pretty much everything I described above, he still feels the simulator is not very useful -- he writes about his thoughts [here.](http://www.hardballtimes.com/10-lessons-i-learned-from-creating-a-baseball-simulator/)
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
