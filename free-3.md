@@ -6,44 +6,53 @@ good way to meet their needs.
 
 
 ### What's the need?
-_What need is met by your idea? Who are you helping? What is that person's
-experience like now? What would their experience be like if you could help 
-them?_
+People have trouble budgeting out time on their computers. 
 
 
 ### Why a language?
-_Why is a DSL appropriate for your user(s)? How does it address the need?_
+A language would provide enough expressiveness for users to specify their
+schedule and what they should be doing on their computer.
 
 
 ### Why you?
-_What excites you about this idea? How did you come up with it?_
+This is an exciting idea because I think it is a problem most people face
+on their computers: procrastination. I came up with this idea from talking
+to multiple people about their problems with computers.
 
 
 ### Domain
-_Describe the project's domain in five words._
-
+Scheduling and Limiting Screen Time
 
 ### Interface (syntax)
-_How might the user interact with the language? What does programming look 
-like? Why is this the right way to interact with the problem domain?_ 
+I see the syntax as basically describing a schedule for a day and what allowed
+apps/websites would be availiable at certain times. For example I want to 
+accomplish a particular task and I need Safari and Eclipse to do it. Perhaps
+I also want to make sure that I don't play any games instead.
+
+Games = Chess, Pong
+
+Task1 : 2 hours
+	Safari
+	Eclipse
+	not Games
+
 
 
 ### Operation (semantics)
-_What might happen when a program runs? How does a program interact with the
-user? What kinds of errors might occur, and how might they be communicated to
-the user?_
-
+When a program runs, it blocks certain programs on your computer from running.
 
 ### Expressiveness
-_What should be easy to do in this language? What should be possible, but
-difficult? What should be impossible or very difficult?_
+It should be easy to express what a schedule for computer time looks like.
+Anything else would be rather difficult.
 
 
 ### Related work
-_Are there any other DSLs in this domain? If not, describe how you know there
-aren't and conjecture why not. If so, describe them and provide links. How well 
-do they address the need? Are there any particularly admirable qualities of the
-language? Are there parts of the language you think could be improved?_
+There are a few apps that allow you to block websites and other 
+apps on your computer.
+
++ https://selfcontrolapp.com
++ http://getconcentrating.com
++ http://anti-social.cc
 
 
 ## The Project
@@ -51,18 +60,19 @@ This section examines whether the idea makes for a good CS 111 project.
 
 
 ### Suitability
-_If someone were to work on this project, what percentage of their time would be
-spent directly engaging in the **language** aspects of this project (e.g.,
-making language design decisions), as opposed to "systems" aspects of the
-project (e.g., implementing a complicated semantics that doesn't require a lot
-of language design)?_
+I think the work would be split up pretty evenly between implementation 
+and language design.
 
 
 ### Scope
-_How big an idea is this? How ambitious is this project?_
+I don't think this is a particularly ambitious project. It would just require
+knowledge of how to block apps on a system which is clearly possible given
+the above mentioned apps that already do this.
 
 
 ### Benefits and drawbacks
-_Why might this be a good idea for a project? Why might this not be a good idea 
-project?_
+I think one of the benefits would be that it would provide a free and easy
+solution / alternative to existing apps. One of the drawbacks of this project
+is that it is not very novel. However, I could imagine novel features that could
+be added to improve that. 
 
