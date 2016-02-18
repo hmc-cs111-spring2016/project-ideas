@@ -26,7 +26,7 @@ Growing up, learning violin was extremely frustrating. The concept of having to 
 ### Domain
 _Describe the project's domain in five words._
 
-Violin learning made more bearable
+Violin is a hard instrument
 
 ### Interface (syntax)
 _How might the user interact with the language? What does programming look 
