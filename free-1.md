@@ -55,7 +55,7 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
-It seems like there are already exists a good amount of audio entertainment related DSLs; however, each of these appear to target a different niche area of mixing music. For instance, a good amount of existing DSLs seem to be focused more on classical music and composing classical music. Given their continued existance, I imagine most of them address the needs of their particular users. DSLs more related to mixing music seem to go for a "big language" approach in that it almost emulates their audio mixing software counterparts in complexity. As argued before, although it allows for more professional usage, it makes it difficult for amateurs to learn.
+It seems like there are already exists a good amount of [audio entertainment related DSLs](http://kyma.symbolicsound.com/); however, each of these appear to target a different niche area of mixing music. For instance, a good amount of existing DSLs seem to be focused more on classical music and composing classical music. Given their continued existance, I imagine most of them address the needs of their particular users. DSLs more related to mixing music seem to go for a "big language" approach in that it almost emulates their audio mixing software counterparts in complexity. As argued before, although it allows for more professional usage, it makes it difficult for amateurs to learn.
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
