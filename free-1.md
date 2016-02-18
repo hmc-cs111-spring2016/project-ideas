@@ -49,7 +49,7 @@ Running a program would be similar to running the program from the soundbyte lab
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
 
-It should be easy to create simply drum fills and randomly modify specific aspects of them.  It should be possible, but difficult (tedious) to create a drum track for an entire song.  It should be impossible to change the pitch of an instrument (meaning no melodies can be played with a single instrument).  Generally, it should be impossible to do anything other than create and modify drum fills.
+It should be easy to create simple drum fills and randomly modify specific aspects of them.  It should be possible, but difficult (tedious) to create a drum track for an entire song.  It should be impossible to change the pitch of an instrument (meaning no melodies can be played with a single instrument).  Generally, it should be impossible to do anything other than create and modify drum fills.
 
 ### Related work
 _Are there any other DSLs in this domain? If not, describe how you know there
@@ -57,7 +57,7 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
-There are many GUI-based drum sequencers, and there is even an app to help people notate and randomly generate drum fills, such as [DrumFill App](http://www.drummerworld.com/forums/showthread.php?t=96465).   However, this app provides very little flexibility in its random generation of drum fills.  From what I understand, it has something along the lines of a "generate random fill" button, and doesn't allow users to randomly modify existing fills (let alone randomly modify them based off specific parameters).  This is something that could definitely be improved.  An admirable quality is its user-friendliness.  Since it is GUI-based, things like notating drum fills are very easy.
+There are many GUI-based drum sequencers, and there is even an app to help people notate and randomly generate drum fills called [DrumFill App](http://www.drummerworld.com/forums/showthread.php?t=96465).   However, this app provides very little flexibility in its random generation of drum fills.  From what I understand, it has something along the lines of a "generate random fill" button, and doesn't allow users to randomly modify existing fills (let alone randomly modify them based off specific parameters).  This is something that could definitely be improved.  An admirable quality is its user-friendliness.  Since it is GUI-based, things like notating drum fills are very easy.
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
@@ -70,7 +70,7 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
-It's difficult to tell at this point, but my guess would be around 50% language design.  In terms of language design, the creator would have to design a parser to accept an ASCII representation of a drum fill.  The creator would also have to create user-friendly syntax for commands that would alter the drum fill.   In terms of "systems", algorithms would be needed to develop to properly randomize elements of a drum fill based on given parameters.  The creator would also have to come up with a robust representation of a drum fill internally (a potential system for this was explained in the "Interface" section), and a playback system would need to be created, likely with MIDI.
+It's difficult to tell at this point, but my guess would be around 50% language design.  In terms of language design, the creator would have to design a way to accept an ASCII representation of a drum fill.  The creator would also have to create user-friendly syntax for commands that would alter the drum fill.   In terms of "systems", algorithms would be needed to develop to properly randomize elements of a drum fill based on given parameters.  The creator would also have to come up with a robust representation of a drum fill internally (a potential system for this was explained in the "Interface" section), and a playback system would need to be created, likely with MIDI.
 
 ###  Scope
 _How big an idea is this? How ambitious is this project?_
