@@ -49,17 +49,33 @@ Choreography creation and record keeping.
 _How might the user interact with the language? What does programming look 
 like? Why is this the right way to interact with the problem domain?_ 
 
+To interact with the language, the user can write out commands for different
+areas of space the dancer should interact with or the quality of movements.
+Programming will look like writing out at least a spacial direction, and then 
+layers can be added on (which limbs, quality, timing, etc). This is a useful
+way to interact with the problem domain because it starts from the key part of 
+dance--where are you--and adds on layers to create the dance itself.
+
 
 ### Operation (semantics)
 _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
+When a program runs, the user could maybe see some sort of basic visualization
+of the dance they have created. This can this be used as a guide for actually
+dancing out the ideas that the user has. Errors could be things like programming
+anatomically impossible movements. Having knowledge of what those are could allow
+the programm to give error messages like "Human arms don't work that way" and such.
+
 
 ### Expressiveness
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
 
+Giving the instructions for the space for the dancer to move in should be 
+easy to do. Specifications (as more and more arise) should be increasingly 
+difficult. Choreography that is humanly impossible should not be programmable.
 
 ### Related work
 _Are there any other DSLs in this domain? If not, describe how you know there
@@ -67,6 +83,11 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
+There are some programs that exist to aid in choreography, such as http://www.choreopro.com/Dance_Designer_s/47.htm
+or http://dance.lovetoknow.com/Ballet_Choreography_Software. However, most of these
+options seem outdated, and I've never seen anyone use one in person. Given that
+they seem to have fallen out of use, I don't think that these are very reasonable 
+solutions to the problem.
 
 ## The Project
 This section examines whether the idea makes for a good CS 111 project.
